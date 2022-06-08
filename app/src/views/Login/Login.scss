@@ -1,0 +1,57 @@
+.logo {
+    width: 250;
+    height: 250;
+}
+
+.logoContainer {
+    justify-content: center;
+    align-items: center;
+}
+
+.logoText {
+    color: #fff;
+    font-size: 28;
+    font-family: 'Quicksand-Bold';
+    margin-top: -25;
+}
+
+.loginContainer {
+    flex:1;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%
+}
+
+.blueTitle {
+    font-family: 'WorkSans-SemiBold';
+    color: #26CFEC;
+    font-size: 27;
+    text-align: center;
+
+}
+
+.loginInput {
+    width: 80%;
+}
+
+.loginButton {
+    width: 80%;
+    margin-bottom: 10;
+}
+.loginButtons {
+    align-items: center;
+    width: 100%;
+}
+
+.loginText {
+    font-family: 'WorkSans-SemiBold';
+    color: #ACACAC;
+    font-size: 22;
+}
+
+.icons {
+    flex-direction: row;
+    padding-bottom: 20;
+
+}

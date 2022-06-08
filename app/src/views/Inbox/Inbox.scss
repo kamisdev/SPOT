@@ -1,0 +1,71 @@
+.composer {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 105;
+    width: 90%;
+    height: 120;
+    background-color: #ffffff;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.textComposer{
+    width: 70%;
+    height:70%;
+    padding-left:30px;
+    padding-top:15px;
+
+}
+
+.sendButton{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #26CFEC;
+    margin-right: 5%;   
+    margin-bottom: 30px;
+
+}
+
+.container{
+    background-color: white;
+    height: 100%;
+}
+
+.chatBubble{
+    width: 100%;
+    padding: 10px 20px 20px 10px;
+    flex-direction: row;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-width: 0px 0 1px 0 ;
+}
+.texts{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 80%;
+    font-family: 'WorkSans-Regular';
+}
+
+.upperText{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10;
+
+
+}
+
+.text{
+    font-size: 13;
+}
+
+
+
+.textBody{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 8
+}

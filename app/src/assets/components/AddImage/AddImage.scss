@@ -1,0 +1,29 @@
+.container{
+    flex-direction: row;
+   flex-wrap: wrap; 
+
+}
+.imagePlaceholder{
+    background-color: #D8D8D8;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4%;
+    overflow: hidden;
+    margin-top: 5%
+}
+.addImageButton{
+    background-color: #26CFEC;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 4%
+
+
+}
+
+.imageIcon{
+    width: 50px;
+    height: 40px;
+}

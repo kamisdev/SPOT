@@ -1,0 +1,113 @@
+.container{
+    flex:1
+}
+.searchBarContainer{
+    background-color: #FD6C59;
+    padding:20px;
+    overflow:hidden;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.searchBar{
+    background-color: #ffffff;
+    border-radius: 25px;
+    height: 50;
+    padding-left:15px;
+    margin:0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.searchBarInput{
+    padding: 5px;
+    width: 100%
+}
+
+.searchBarText{
+    font-size: 15px;
+    padding-left: 10px;
+    font-family: 'WorkSans-Regular';
+}
+
+.searchButton{
+    height: 50;
+    width: 50;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.placesContainer{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.place{
+    padding: 10px;
+    border-width: 0px 0px 1px 0px;
+    border-color: #b8b8b8;
+}
+
+.closeButton{
+    align-items: flex-end;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.subtitleSearchBar{
+    background-color: #FD6C59;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+    height: auto
+}
+.subtitleText{
+    color: white;
+    font-family: 'WorkSans-SemiBold'
+}
+.centeredView{
+    justify-content: center;
+    align-items: center;
+    flex:1
+}
+
+.modalView{
+    background-color: #FD6C59;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+    align-items: center;
+}
+.modalInput{
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.modalText{
+    color: white;
+    margin: 20px
+}
+
+.openButtonText{
+    color: #707070;
+    font-size: 16;
+}
+.openButton{
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+}
+.priText{
+    font-size:13px;
+}
+.subText{
+    font-size: 11px;
+    color: #707070;
+    white-space: nowrap;
+    overflow: hidden;
+}

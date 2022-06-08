@@ -1,0 +1,57 @@
+.container {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.containerFlip {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.chatArrow {
+  height: 150px;
+  width: 40%;
+  margin-top: -105;
+  z-index: 100;
+}
+
+.chatArrowFlip {
+  height: 150px;
+  width: 50%;
+  margin-top: -105;
+  z-index: 100;
+  margin-left: 55%;
+  transform: scaleX(-1);
+}
+
+.chatBubble {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  padding-bottom: 30px;
+  flex-direction: row;
+}
+.svg {
+  box-shadow: 5px 20px 15px rgba(0, 0, 0, 0.3);
+}
+
+.texts {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 80%;
+  font-family: 'WorkSans-Regular';
+}
+
+.upperText {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10;
+  margin-top: 10;
+}
+
+.text {
+  font-size: 13;
+}

@@ -1,0 +1,45 @@
+.container{
+    flex-direction: row;
+    margin-top: 10;
+    margin-left: 5;
+    margin-right: 5;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar{
+    height:50%;
+    width:50
+}
+
+.details{
+    justify-content: flex-end;
+    margin-bottom: 5;
+    margin-left: 5;
+    padding-right: 10
+}
+
+.title{
+    font-family: 'Quicksand-Bold';
+    font-size: 20;
+    color: #2B2B2B;
+}
+
+.subtitle{
+    font-family: 'WorkSans-Regular';
+    font-size: 14;
+    color: #ACACAC;
+}
+
+.buttonRound{
+    background-color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.17);
+    height: 40;
+    width: 40;
+    border-radius: 20px;
+    margin-left: 10
+}
+
+.buttonGroup{
+    flex-direction: row;
+}

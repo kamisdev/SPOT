@@ -1,0 +1,19 @@
+.innerCircle{
+    width:150;
+    height:150;
+    border-radius: 75px;
+    border: 5px solid #ffffff;
+    z-index: 99;
+}
+
+.outerCircle{
+    width:160;
+    height:160;
+    border-radius: 90px;
+    background-color: #B447D6;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+
+
+}

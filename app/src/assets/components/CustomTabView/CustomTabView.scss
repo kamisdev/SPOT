@@ -1,0 +1,25 @@
+.tabsContainer{
+    flex-direction: row;
+    height:50;
+}
+
+.activatedTab{
+    flex:1;
+    justify-content: center;
+}
+
+.tab{
+    flex:1;
+    justify-content: center;
+}
+
+.tabContent{
+    width: 100%;
+    background-color: white;
+}
+
+.font{
+    font-family: 'Quicksand-Bold';
+    color: #fff;
+    text-align: center;
+}

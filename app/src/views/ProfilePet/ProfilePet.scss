@@ -1,0 +1,52 @@
+
+
+.blurContainer{
+    height: 280;
+    justify-content: center;
+    align-items: center;
+    z-index: -2;
+}
+
+.blurContainerImage{
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.detailsContainer{
+    height: 120;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileName{
+    font-family: 'Quicksand-Bold';
+    font-size: 32;
+    color: #333333;
+    
+}
+
+.profileSubtext{
+    margin-top:5;
+    font-family: 'Quicksand-Bold';
+    font-size: 14;
+    color: #ACACAC;
+    
+}
+.blur{
+    width:100%;
+    height: 280;
+    z-index: 0;
+    position: absolute;
+    
+}
+
+.gallery{
+    background-color: white;
+    margin-left:5%;
+    margin-bottom:5%;
+
+
+}

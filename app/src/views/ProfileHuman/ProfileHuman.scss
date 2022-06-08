@@ -1,0 +1,52 @@
+.detailContainer{
+    align-items: center;
+}
+.spacer{
+    height:40
+}
+.detailPane{
+    background-color: #ffffff;
+    width: 100%;
+    margin-top:-70;
+    z-index: -1;
+    align-items: center;
+    padding-bottom: 20;
+}
+.profileName{
+    margin-top:80;
+    font-family: 'Quicksand-Bold';
+    font-size: 32;
+    color: #333333;
+    text-transform: capitalize;
+    
+}
+
+.profileSubtext{
+    margin-top:5;
+    font-family: 'Quicksand-Bold';
+    font-size: 14;
+    color: #ACACAC;
+    
+}
+
+.purpleText{
+    margin-top:25;
+    font-family: 'Quicksand-Bold';
+    font-size: 14;
+    color: #B447D6;
+}
+
+.stats{
+    font-family: 'WorkSans-Regular';
+    font-size: 14;
+    color: #ACACAC;
+}
+
+.buttonGroup{
+    background-color: #fff;
+    width: 100%;
+    padding-right: 20;
+    padding-left: 20;
+    padding-top: 10;
+    padding-bottom: 120;
+}

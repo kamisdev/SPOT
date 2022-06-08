@@ -1,0 +1,23 @@
+.item {
+    font-size: 18;
+    font-family: 'WorkSans-Regular';
+    height: 30;
+    margin-left: 15;
+  }
+
+.container{
+    background-color: #fff;
+    padding-right: 15;
+    padding-left: 15;
+    padding-top: 20;
+    padding-bottom: 40
+
+}
+
+.itemContainer{
+    flex-direction: row;
+    padding: 10px;
+    flex:1;
+    align-items: center;
+
+}
