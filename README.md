@@ -1,2 +1,2 @@
 # SPOT
-App by Kevin - Single Pet Owners... Tho test
+App by Kamis - Single Pet Owners... Tho test
